@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler,LabelEncoder
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
-uri = "mongodb+srv://sudhanshu:sudh1234@cluster0.pnq4z.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "mongodb+srv://siddhanathtiwari7709:siddhanath123@cluster0.ihe1n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 client = MongoClient(uri, server_api=ServerApi('1'))
 db = client['student']
 collection = db["student_pred"]
